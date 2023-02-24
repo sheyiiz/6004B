@@ -1,0 +1,39 @@
+fun main() {
+    
+/* 
+ * mais
+ * de
+ * uma
+ * linha
+ * */
+ 
+
+//variaveis
+//
+// var - mutável - seu valor pode ser alterado
+// val - não mutável - não é possível alterar seu valor
+// 
+// tipos de váriaveis:
+// 
+// boolean - só é possível ter dois: verdadeiro ou falso
+// strings - qualquer texto de qualquer tamanho dentro de "" --> ex: "pizza"
+// char - APENAS UM caractere dentro de '' --> ex: 'a'
+// Int - números inteiros --> ex:'6'
+// double - números decimais (de forma arredondada) --> ex: 71.23
+// Long - Números reais (de forma longa) --> ex: 500000000000000000000000
+// Float - Números decimais (de forma definitiva) --> ex: 71.2314165646868
+// 
+// Estrutura de uma variável
+// 
+// var nomeDela = "Valor"
+// var nomeDela: String
+// 
+
+ //concatenação
+ var messiGoldenBall = 7
+
+println("O Messi já ganhou " + messiGoldenBall + " vezes a Bola de Ouro. Ankara Messi")
+println("O Messi já ganhou $messiGoldenBall vezes a Bola de Ouro. Ankara Messi")
+
+
+}
