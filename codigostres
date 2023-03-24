@@ -1,0 +1,54 @@
+fun main() {
+
+    
+    // repeat -> repita
+    // - repetir uma determinada sequência de ações, em determinado quantidade de vezes
+    // 
+    // repeat(vezes){
+    // ação
+    // }
+    /*
+    repeat(7){
+        println("Ankara Messi, Ankara Messi, Messi Messi Messi Messi, golo golo golo")
+    }
+    */
+    
+    //-------------------------------------------------------------------
+    // Exercicio = Exiba os números de 20 a 0 nesta ordem usando o laço repeat.❤
+    
+    /*repeat(1){
+        println(20)
+        println(19)
+        println(18)
+        println(17)        
+        println(16)
+        println(15)        
+        println(14)
+        println(13)        
+        println(12)
+        println(11)
+        println(10)
+        println(9)
+        println(8)
+        println(7)
+        println(6)
+        println(5)
+        println(4)
+        println(3)
+        println(2)
+        println(1) 
+        println(0)
+        
+        for(i in 20..0){
+            println()
+        }
+    }
+    */
+    
+    var GustavoLima = 20
+    repeat(20){
+        println(GustavoLima)
+        GustavoLima--
+    }
+
+}
