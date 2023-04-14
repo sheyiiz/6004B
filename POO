@@ -152,4 +152,63 @@ class bolo(var sabor: String,
 
 
 
+// --------------------------------------------------------------------------------------------------------------------------------------------------------
 
+
+fun main() {
+/*    println("um oferecimento: Animal Planet")
+    println("")
+    
+    val animalzin = Animal("Raposa", "Feneco", 0.70, 35.0, "onívora", 40.0)
+    animalzin.naoPegue()
+    animalzin.correr(20.0)
+    animalzin.comer("galinha")
+    animalzin.rir()
+    */
+    
+    var usuario = ContaBanco(-100.0, 2349823095809582, 5018)
+    usuario.consultarSaldo(5018)
+    
+}
+    
+    class ContaBanco(var saldo: Double, var numeroConta: Long, var senhaCorreta: Int,){
+        
+        fun consultarSaldo(senha: Int){
+            
+            if(senha == senhaCorreta){
+                println("Saldo: R$$saldo")
+            }else{
+                println("Senha Incorreta")
+            }
+    }
+        
+}
+
+    
+    
+    
+class Animal(
+    var especie: String,
+    var raça: String,
+    var peso: Double,
+    var altura: Double,
+    var dieta: String,
+    var comprimento: Double,
+
+){
+    fun correr(velocidade: Double){
+        println("Correndo em uma velocidade de $velocidade km/h")
+    }
+    fun comer(comida: String){
+        println("Comendo um(a) $comida ")
+    }
+    fun rir(){
+        println("Rindo kk")
+    }
+    fun naoPegue(){
+        println("Repitam comigo!! ")
+        println("RAPOSO NÃO PEGUE!!")
+    }
+    
+    
+}
